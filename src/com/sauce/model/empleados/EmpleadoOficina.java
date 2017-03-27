@@ -43,6 +43,7 @@ public class EmpleadoOficina extends Empleado {
 
     //Metodos
 
+    @Override
     public double calcularSueldo(){
         double sueldo = 1150;
         int trienios = aniosTrabajados / 3;

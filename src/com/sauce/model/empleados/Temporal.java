@@ -33,6 +33,7 @@ public class Temporal extends Empleado {
 
     //Metodos
 
+    @Override
     public double calcularSueldo(){
         double plus;
         double impuesto;

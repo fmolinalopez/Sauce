@@ -37,6 +37,7 @@ public class Comercial extends Empleado {
 
     //Metodos
 
+    @Override
     public double calcularSueldo(){
         double sueldo = 850;
         double impuesto;
